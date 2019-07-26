@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class App extends Component {
-  CanvasRenderingContext2D() {
+function App() {
     return (
-      <div className="App">
-        <h1>Hello, world!</h1>
-      </div>
+        <div className="App">
+            <h1>Hello, world!</h1>
+        </div>
     );
-  }
 }
 
-export default App;
+export default App
